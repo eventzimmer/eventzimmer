@@ -10,7 +10,7 @@ Below is the roadmap for eventzimmer 1.0
 - [x] buy `eventzimmer.de`
 - [x] prepare data privacy page
 - [ ] develop `@eventzimmer/api`
-    - [ ] use [dgraph](https://dgraph.io) to store events
+    - [x] use [neo4j](https://neo4j.com) to store events
     - [ ] offer a GraphQL endpoint to search events
         - [ ] include metadata (location, tags, date)
     - [ ] offer a GraphQL endpoint to add new events
