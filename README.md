@@ -11,8 +11,8 @@ Below is the roadmap for eventzimmer 1.0
 - [x] prepare data privacy page
 - [ ] develop `@eventzimmer/api`
     - [x] use [neo4j](https://neo4j.com) to store events
-    - [ ] offer a GraphQL endpoint to search events
-        - [ ] include metadata (location, tags, date)
+    - [x] offer a GraphQL endpoint to search events
+        - [x] include metadata (location, tags, date)
     - [ ] offer a GraphQL endpoint to add new events
         - [ ] add JWT for machine-to-machine communication to the endpoint
 - [ ] develop `@eventzimmer/aggregat`
