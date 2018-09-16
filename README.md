@@ -1,36 +1,37 @@
-eventzimmer
------------
+`@eventzimmer`
+-------------
 
-This is the main repository of the eventzimmer event service.
-It is used to track issues and coordinate development.
+Welcome to the eventzimmmer main repository.
 
-## Roadmap
+This repository is used for:
 
-Below is the roadmap for eventzimmer 1.0
-- [x] buy `eventzimmer.de`
-- [x] prepare data privacy page
-- [x] develop `@eventzimmer/api`
-    - [x] use [neo4j](https://neo4j.com) to store events
-    - [x] offer a GraphQL endpoint to search events
-        - [x] include metadata (location, tags, date)
-    - [x] offer a GraphQL endpoint to add new events
-        - [x] add JWT for machine-to-machine communication to the endpoint
-- [ ] develop `@eventzimmer/aggregator`
-    - [ ] add Facebook
-    - [ ] add iCal import
-    - [ ] look into [festivalticker](https://www.festivalticker.de/) and [goabase](https://www.goabase.net/)
-    - [ ] set up a machine-to-machine token for the add event endpoint
-- [ ] develop a progressive web app
-    - [ ] make it possible to filter events by
-        - [ ] location
-        - [ ] tags
-        - [ ] full text
-        - [ ] date
-- [ ] deploy
-    - [ ] main website to Netlify pages
-    - [ ] the wpa to the app store(s) (maybe this can be done automagically too)
-    - [ ] `@eventzimmer/api` and `@eventzimmer/aggregator` to Hetzner Cloud
-- [ ] check if [coinhive](https://coinhive.com/) can be used
-- [ ] check if we can get free piwik or if Google Analytics is feasible
-- [ ] hooray because that's the `1.0` release
+- tracking milestones
+- issue management
+- general discussion
 
+There are several milestone files with defined goals.
+
+## Current milestones
+
+We use semantic versioning, starting off with the `1.0` release.
+Here are in order the current milestones:
+
+- [1.0](MILESTONE-1.0.md)
+- [1.1](MILESTONE-1.1.md)
+- [1.2](MILESTONE-1.2.md)
+- [1.3](MILESTONE-1.3md)
+
+## A note on contributing
+
+Depending on what you would like to contribute, this may or may not be the place to go. Please check the [contribution guidelines](CONTRIBUTING.md).
+
+## Eventzimmer architecture
+Eventzimmer is composed of several parts:
+
+- the API which contains database configuration as well as the public and private endpoints
+- an aggregation service which is run as a client against the private endpoint
+- a progressive web app which is hosted as static files and faces the user (both in web and on mobile)
+
+This is illustrated in below image
+
+![architecture](Architecture.png)
