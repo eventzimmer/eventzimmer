@@ -19,7 +19,7 @@ Here are in order the current milestones:
 - [1.0](MILESTONE-1.0.md)
 - [1.1](MILESTONE-1.1.md)
 - [1.2](MILESTONE-1.2.md)
-- [1.3](MILESTONE-1.3md)
+- [1.3](MILESTONE-1.3.md)
 
 ## A note on contributing
 

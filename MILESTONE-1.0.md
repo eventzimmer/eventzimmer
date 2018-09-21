@@ -18,7 +18,7 @@ Below is the roadmap for eventzimmer 1.0
     - [ ] set up a machine-to-machine token for the add event endpoint
 - [ ] develop a progressive web app
     - [ ] make it possible to filter events by
-        - [ ] location
+        - [x] location
         - [ ] tags
         - [ ] full text
         - [ ] date
@@ -27,5 +27,5 @@ Below is the roadmap for eventzimmer 1.0
     - [ ] the wpa to the app store(s) (maybe this can be done automagically too)
     - [ ] `@eventzimmer/api` and `@eventzimmer/aggregator` to Hetzner Cloud
 - [ ] check if [coinhive](https://coinhive.com/) can be used
-- [ ] check if we can get free piwik or if Google Analytics is feasible
+- [ ] use AWstats
 - [ ] hooray because that's the `1.0` release
