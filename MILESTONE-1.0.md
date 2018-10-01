@@ -16,16 +16,16 @@ Below is the roadmap for eventzimmer 1.0
     - [ ] add Facebook
     - [x] add iCal import
     - [ ] set up a machine-to-machine token for the add event endpoint
-- [ ] develop a progressive web app
-    - [ ] make it possible to filter events by
+- [x] develop a progressive web app
+    - [x] make it possible to filter events by
         - [x] location
-        - [ ] tags
-        - [ ] full text
-        - [ ] date
+        - [x] tags
+        - ~~full text~~
+        - [x] date
 - [ ] deploy
     - [ ] main website to Netlify pages
-    - [ ] the wpa to the app store(s) (maybe this can be done automagically too)
-    - [ ] `@eventzimmer/api` and `@eventzimmer/aggregator` to Hetzner Cloud
-- [ ] check if [coinhive](https://coinhive.com/) can be used
+    - [ ] `@eventzimmer/api` to Hetzner Cloud
+    - [ ] `@eventzimmer/aggregator` to Raspberry Pi
+- [x] check if [coinhive](https://coinhive.com/) can be used
 - [ ] use AWstats
 - [ ] hooray because that's the `1.0` release
