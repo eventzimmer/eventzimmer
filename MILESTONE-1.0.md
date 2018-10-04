@@ -13,7 +13,7 @@ Below is the roadmap for eventzimmer 1.0
     - [x] offer a GraphQL endpoint to add new events
         - [x] add JWT for machine-to-machine communication to the endpoint
 - [ ] develop `@eventzimmer/aggregator`
-    - [ ] add Facebook
+    - [x] add Facebook
     - [x] add iCal import
     - [ ] set up a machine-to-machine token for the add event endpoint
 - [x] develop a progressive web app
