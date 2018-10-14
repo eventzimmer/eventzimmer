@@ -12,20 +12,20 @@ Below is the roadmap for eventzimmer 1.0
         - [x] include metadata (location, tags, date)
     - [x] offer a GraphQL endpoint to add new events
         - [x] add JWT for machine-to-machine communication to the endpoint
-- [ ] develop `@eventzimmer/aggregator`
+- [x] develop `@eventzimmer/aggregator`
     - [x] add Facebook
     - [x] add iCal import
-    - [ ] set up a machine-to-machine token for the add event endpoint
+    - [x] set up a machine-to-machine token for the add event endpoint
 - [x] develop a progressive web app
     - [x] make it possible to filter events by
         - [x] location
         - [x] tags
         - ~~full text~~
         - [x] date
-- [ ] deploy
-    - [ ] main website to Netlify pages
-    - [ ] `@eventzimmer/api` to Hetzner Cloud
-    - [ ] `@eventzimmer/aggregator` to Raspberry Pi
+- [x] deploy
+    - [x] main website to Netlify pages
+    - [x] `@eventzimmer/api` to Hetzner Cloud
+    - [x] `@eventzimmer/aggregator` to Raspberry Pi
 - [x] check if [coinhive](https://coinhive.com/) can be used
-- [ ] use AWstats
+- ~~use AWstats~~
 - [ ] hooray because that's the `1.0` release
