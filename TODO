@@ -1,3 +1,4 @@
 - only request geolocation on page load
 - switch date range picker to mobile friendly version
 - fix bug with empty events when selected dates previously
+- make default maxDate longer (e.g 6 months)
