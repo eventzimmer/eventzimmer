@@ -28,4 +28,5 @@ Below is the roadmap for eventzimmer 1.0
     - [x] `@eventzimmer/aggregator` to Raspberry Pi
 - [x] check if [coinhive](https://coinhive.com/) can be used
 - ~~use AWstats~~
-- [ ] hooray because that's the `1.0` release
+- [x] hooray because that's the `1.0` release
+

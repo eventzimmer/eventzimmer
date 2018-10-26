@@ -5,9 +5,13 @@ Milestone 1.1
 Below is the roadmap for eventzimmer 1.1
 
 - `@eventzimmer/api`
-    - [ ] implement a default location that is used if no location is provided on event creation
-        - [ ] make location optional
     - [ ] implement a source prediction (when to fetch source next)
     - [ ] implement a transactional source system so sources will be pulled less frequently
 - `@eventzimmer/aggregator`
+    - [ ] implement a _"force_source_fetch"_ where you can force an individual source to be pulled again
+      - [ ] implement local locations list as a fallback
+    - [ ] make the whole thing more robust
+    - [ ] support proxies (we do, but test them)
     - [ ] use the new transaction system to add events
+- `@eventzimmer/app`
+    - [ ] refactor store, add more tests
