@@ -8,9 +8,9 @@ Below is the roadmap for eventzimmer 1.1
     - [ ] implement a source prediction (when to fetch source next)
     - [ ] implement a transactional source system so sources will be pulled less frequently
 - `@eventzimmer/aggregator`
-    - [ ] implement a _"force_source_fetch"_ where you can force an individual source to be pulled again
+    - [x] implement a _"force_source_fetch"_ where you can force an individual source to be pulled again
       - [ ] implement local locations list as a fallback
-    - [ ] make the whole thing more robust
+    - [x] make the whole thing more robust
     - [ ] support proxies (we do, but test them)
     - [ ] use the new transaction system to add events
 - `@eventzimmer/app`
