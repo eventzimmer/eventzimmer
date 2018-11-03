@@ -5,7 +5,7 @@ Milestone 1.1
 Below is the roadmap for eventzimmer 1.1
 
 - `@eventzimmer/api`
-    - [ ] use GoAccess with Caddy logs to get site performance
+    - [x] use GoAccess with Caddy logs to get site performance
     - [ ] implement a source prediction (when to fetch source next)
     - [ ] implement a transactional source system so sources will be pulled less frequently
 - `@eventzimmer/aggregator`
